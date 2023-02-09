@@ -1,0 +1,131 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background-color: #404040;
+}
+
+.nav-link {
+  color: #A8D1D1;
+}
+
+.main-heading {
+  font-size: 5rem;
+}
+
+.heading {
+  padding-left: 10rem;
+  margin-top: 1rem;
+}
+
+.sub-heading {
+  margin: 3rem auto;
+}
+
+.title-div-img {
+  text-align: center;
+  position: relative;
+  bottom: 5rem;
+}
+
+.title-img {
+  max-width: 35rem;
+  max-height: 30rem;
+}
+
+/* Top Container */
+#top-container {
+  background-color: #CFD2CF;
+  margin-top: 4rem;
+  height: 25rem
+}
+
+.up-triangle {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid #A8D1D1;
+  margin-left: 5rem;
+  position: relative;
+  top: 1rem;
+}
+
+.heading-subsection {
+  margin-top: 5rem;
+}
+
+/* AboutMe Section, Carousel */
+#about-me {
+  margin-top: 10rem;
+}
+
+.rectangle {
+  padding: 2rem;
+  background-color: #A8D1D1;
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.carousel-photo-hor {
+  width: 100%;
+}
+
+.carousel-photo-ver {
+  width: 50%;
+}
+
+.aboutme {
+  padding: 5rem;
+}
+
+
+
+/* Experience */
+#experience {
+margin-top: 4rem;
+}
+
+.entries{
+background-color: #D9D9D9;
+border-radius: 4rem;
+padding: 1.5rem;
+margin-bottom: 2rem;
+}
+
+
+
+/* projects */
+#projects {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.circle {
+  background-color: #658864;
+  border-radius: 50%;
+  width: 60rem;
+  height: 60rem;
+  position: relative;
+  right: 5rem;
+  z-index: 1;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 30rem solid transparent;
+  border-right: 60rem solid #84D2C5;
+  border-bottom: 30rem solid transparent;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
