@@ -93,7 +93,10 @@ a:hover {
   background-color: #A8D1D1;
   border-radius: 20px;
   text-align: center;
+}
 
+.aboutme .heading {
+  line-height: 40px;
 }
 
 .carousel-photo-hor {
@@ -105,7 +108,7 @@ a:hover {
 }
 
 .aboutme {
-  padding: 2rem;
+  padding: 4rem 2rem;
   font-weight: 900;
 }
 
@@ -184,5 +187,11 @@ input {
 button {
   display: block;
   margin: 5px auto;
+border: none;
+border-radius: 10px;
+background-color: #84D2C5;
+}
 
+botton:hover {
+  background-color: #658864;
 }
