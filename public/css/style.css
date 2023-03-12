@@ -150,6 +150,7 @@ position: relative;
   position: relative;
 }
 
+
 .circle {
   background-color: #658864;
   border-radius: 50%;
@@ -158,6 +159,8 @@ position: relative;
   position: relative;
   right: 5rem;
   z-index: 1;
+  padding: 3rem;
+  text-align: center;
 }
 
 .triangle {
@@ -170,6 +173,29 @@ position: relative;
   right: 0;
   z-index: 0;
 }
+
+.nprojects{
+  margin: 5rem auto 1rem;
+}
+
+.icon {
+  width: 30%;
+}
+
+.links{
+  display: block;
+}
+
+.description{
+  text-align: left;
+  margin-right: 5rem;
+  padding-top: 1rem;
+}
+
+.icon-section{
+padding-left: 20%;
+}
+
 
 /* Contact */
 
