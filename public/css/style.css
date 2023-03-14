@@ -86,6 +86,7 @@ a:hover {
 /* AboutMe Section, Carousel */
 #about-me {
   margin-top: 10rem;
+  padding: 3rem;
 }
 
 .rectangle {
@@ -263,4 +264,25 @@ footer p {
   color: #EEEEEE;
   font-size: 1rem;
   display: inline-block;
+}
+
+
+/* Animation */
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(50%);
+  transition: all 2s;
+}
+
+.noblurhidden{
+  transform: translateX(50%);
+  transition: all 2s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }

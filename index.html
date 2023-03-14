@@ -82,7 +82,7 @@
   <section class="container" id="about-me">
     <div class="row">
       <div class="col-lg-7 	rectangle">
-        <div id="photoslide" class="carousel slide" data-bs-ride="false">
+        <div id="photoslide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
           <div class="carousel-inner">
             <div class="carousel-item active container-fluid">
               <img src="images/Random-13.jpg" class="carousel-photo-ver" alt="devino_photograpy">
@@ -113,12 +113,12 @@
       </div>
       <div class="col-lg-5 aboutme">
         <h3 class="heading">About Me</h3>
-        <p>As a creative and hard-working Digital Marketer based in the Netherlands, I am seeking new opportunities to utilize my skills and knowledge in a dynamic, digitally-oriented company. I am open to any kind of contribution.</p>
+        <p class="noblurhidden">As a creative and hard-working Digital Marketer based in the Netherlands, I am seeking new opportunities to utilize my skills and knowledge in a dynamic, digitally-oriented company. I am open to any kind of contribution.</p>
         <br>
-        <p>I hold a master's degree in Business and Marketing, have studied in three different countries, and am fluent in English. My expertise includes front-end web development languages such as HTML, CSS, and JavaScript, and I am currently
+        <p class="noblurhidden">I hold a master's degree in Business and Marketing, have studied in three different countries, and am fluent in English. My expertise includes front-end web development languages such as HTML, CSS, and JavaScript, and I am currently
           expanding my skillset to include back-end languages. I am tech-savvy and open to using new technologies and innovations to create innovative marketing strategies. </p>
         <br>
-        <p>My additional interests and skills, such as semi-professional photography, cooking, and motorcycle riding, make me a valuable asset to any creative, easy-going, and international team.</p>
+        <p class="noblurhidden">My additional interests and skills, such as semi-professional photography, cooking, and motorcycle riding, make me a valuable asset to any creative, easy-going, and international team.</p>
 
 
       </div>
@@ -232,10 +232,10 @@
 
           </div>
         </div>
-      <div class="col-lg-6 triangle">
+      <div class="col-lg-6 triangle hidden">
           <div class="solutions">
             <h2>I am here for the solutions!</h2>
-            <p>I started work as a Freelancer Marketing Consultant. I provide solutions for local or international companies. At the moment, I am located in Kronenberg and I am working remotely. However, Do you need photographs for your product or personal marketing? Do you need a consultant about improving your web traffic or social media traffic? Do you need more digital content or creative ideas? And also do you need someone to analyze them and provide more ideas?  I am here to help you with omnichannel Marketing solutions. We can build you a digital identity or branding together. </p>
+            <p>I started work as a Freelancer Marketing Consultant. I provide solutions for local or international companies. At the moment, I am located in Kronenberg and I am working remotely. However, Do you need photographs for your product or employee marketing? Do you need a consultant about improving your web traffic or social media traffic? Do you need more digital content or creative ideas? And also do you need someone to analyze them and provide more ideas?  I am here to help you with omnichannel Marketing solutions. We can build you a digital identity or branding together. </p>
           </div>
 
 
@@ -250,15 +250,15 @@
     <div class="row gx-5">
       <div class="col-lg-6">
         <div class="col-lg-12 entries">
-          <form action="/" method="post">
+          <form action="mailto:devincetin@yahoo.com" method="post" enctype="text/plain">
             <h3>Send me a Message!</h3>
             <br>
             <h5>I a waiting for your feedbacks or collobration requests!</h5>
 
-            <input type="text" name="fullname" placeholder="Fullname">
-            <input type="text" name="location" placeholder="City">
+            <input type="text" name="fullname" placeholder="Fullname" required>
+            <input type="text" name="location" placeholder="City" required>
             <br>
-            <textarea id="freeform" name="freeform" rows="4" cols="50">So?</textarea>
+            <textarea id="freeform" name="comments" rows="4" cols="50" required>So?</textarea>
             <button type="submit" name="button">Via your e-mail</button>
 
           </form>
@@ -305,7 +305,7 @@
 
 
 
-  <script src="index.js" charset="utf-8"></script>
+  <script src="css/index.js" charset="utf-8"></script>
 </body>
 
 </html>
