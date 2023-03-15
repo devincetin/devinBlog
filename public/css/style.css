@@ -206,6 +206,14 @@ padding-left: 20%;
   left: 25rem;
 }
 
+.triangle a {
+  margin-left: 1rem;
+}
+
+.triangle a:hover{
+  color: #658864;
+}
+
 /* Contact */
 
 #contact{
@@ -246,6 +254,21 @@ form button:hover {
   border-radius: 1rem;
   border: none;
 
+}
+
+.gdpr {
+  text-align: left;
+}
+
+.checkbox input{
+  width: 20px;
+  height: 20px;
+}
+.checkbox label{
+  margin-right: 1rem;
+}
+.checkbox{
+    margin: 2rem;
 }
 
 /* Footer */
