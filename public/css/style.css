@@ -15,6 +15,7 @@ body {
   background: url("../images/backdevinblog.png");
   background-repeat: no-repeat;
   background-size: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -60,6 +61,27 @@ a:hover {
   max-width: 35rem;
   max-height: 30rem;
 }
+
+.title-img:hover {
+  transform: rotate(10deg) translateY(10%);
+
+  transition: all 2s;
+}
+
+@media only screen and (max-width: 798px) {
+  .title-img {
+    width: 20rem;
+  }
+
+  .title-div-img{
+left: 13rem;
+bottom: 13rem;
+  }
+
+.heading {
+  transform: scale(90%);
+  transform: translateX(-100px);
+}}
 
 /* Top Container */
 #top-container {
@@ -173,6 +195,21 @@ position: relative;
   position: absolute;
   right: 0;
   z-index: 0;
+}
+
+@media only screen and (max-width: 798px) {
+  .circle{
+    right: 0;
+  }
+  .projects {
+    transform: scale(80%);
+    
+  }
+
+  .triangle {
+    position: relative;
+right: 12rem;
+  }
 }
 
 .nprojects{

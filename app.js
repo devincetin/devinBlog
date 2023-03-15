@@ -11,14 +11,21 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+app.set("view engine", "ejs");
 
 // Sending Index.html
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+
+
 // For static files
 app.use(express.static('public'));
+
+app.get("/download", function(req, res) {
+  res.download("public/resume/devincetin_resume.pdf")
+})
 
 
 
