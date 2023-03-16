@@ -319,7 +319,7 @@ footer p {
 /* Heading Section Media */
 
 
-@media only screen and (max-width: 798px) and (min-width: 400px)  {
+@media only screen and (max-width: 798px) and (min-width: 490px)  {
   .title-img {
     width: 20rem;
   }
@@ -353,7 +353,7 @@ footer p {
 
 /* Projects Section Media */
 
-@media only screen and (max-width: 768px) and (min-width: 400px){
+@media only screen and (max-width: 768px) and (min-width: 490px){
   .circle {
     right: auto;
   }
@@ -385,7 +385,7 @@ footer p {
 
 }
 
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 489px) {
   .title-img {
     width: 10rem;
   }
@@ -409,9 +409,10 @@ footer p {
 
 }
 
-@media only screen and (max-width:399px) {
+@media only screen and (max-width:489px) {
   .circle {
     right: auto;
+    width: 150%;
   }
 
   .nprojects {
