@@ -23,6 +23,11 @@ a {
   color: black;
 }
 
+textarea {
+  width: 22rem;
+  height: auto;
+}
+
 a:hover {
   color: #A8D1D1;
 }
@@ -438,6 +443,11 @@ footer p {
 
 .solutions{
   transform: scale(75%);
+}
+
+textarea {
+  width: 15rem;
+  height: auto;
 }
 
 }
