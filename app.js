@@ -78,8 +78,17 @@ const response = await mailchimp.lists.addListMember(listId, {
  run().catch(e => res.sendFile(__dirname + "/failure.html"));
 });
 
+app.post("/success", function(req, res) {
+  res.redirect("/");
+});
+
 app.post("/failure", function(req, res) {
   res.redirect("/");
+});
+
+// Blog Posts
+app.get("/blog", function(req, res) {
+  res.sendFile(__dirname + "/blog.html")
 });
 
 
