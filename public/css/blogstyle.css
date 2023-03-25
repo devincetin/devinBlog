@@ -17,6 +17,17 @@ a{
 p {
   font-family: 'Lato', sans-serif;
 }
+.header{
+  font-size: 3rem;
+  color: #EEEEEE;
+}
+
+.title{
+  font-size: 2rem;
+  color: #A8D1D1;
+  margin-left: 1rem;
+  font-weight: 600;
+}
 
 .container-fluid{
   padding: 0;
@@ -24,9 +35,25 @@ p {
 
 .photo{
 max-width: 100%;
-height: 43rem;
+height: 39rem;
 }
 
+@media only screen and (max-width:489px) {
+
+  .header{
+    font-size: 2rem;
+    color: #EEEEEE;
+  }
+
+  .title{
+    text-align: left;
+    font-size: 1rem;
+    color: #A8D1D1;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+
+}
 
 
 /* NavigationBar */
@@ -48,11 +75,26 @@ height: 43rem;
   max-width: 400px;
   max-height: 400px;
   float: right;
-  margin-left: 1rem;
+  margin: 1rem;
+}
+
+.pragraph-photos-left{
+
+  max-width: 400px;
+  max-height: 400px;
+  float: left;
+  margin: 1rem;
 }
 
 .hidden{
   display: none;
+}
+
+.prograph-footer{
+  text-align: right;
+  font-style: italic;
+  font-size: 0,3rem;
+  font-weight: 300;
 }
 
 /* Footer */
@@ -88,7 +130,13 @@ height: 20rem;
 
 .pragraph-photos{
   float: none;
-  text-align: center;
+  width: 90%;
+}
+
+.pragraph-photos-left{
+  float: none;
+  width: 90%;
+
 }
 
 }
