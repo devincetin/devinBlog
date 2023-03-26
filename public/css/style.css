@@ -42,7 +42,7 @@ a:hover {
 }
 
 .main-heading {
-  font-size: 5rem;
+  font-size: 4.3rem;
 }
 
 /* Heading */
@@ -115,10 +115,16 @@ a:hover {
 
 .carousel-photo-hor {
   width: 100%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .carousel-photo-ver {
   width: 45%;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .aboutme {
@@ -335,7 +341,7 @@ footer p {
   }
 
   .main-heading{
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .sub-heading{
