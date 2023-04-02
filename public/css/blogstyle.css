@@ -10,12 +10,17 @@ body {
 }
 
 a{
+  font-weight: 700;
   text-decoration: none;
   color: black;
 }
 
 p {
   font-family: 'Lato', sans-serif;
+}
+.black{
+  font-size: 3rem;
+  color: black;
 }
 .header{
   font-size: 3rem;
@@ -70,12 +75,18 @@ height: 39rem;
   margin-top: 4rem;
 }
 
+li {
+  margin: 10px;
+}
+
 .pragraph-photos{
 
   max-width: 400px;
   max-height: 400px;
   float: right;
-  margin: 1rem;
+  margin: 5px 5px 5px 2rem;
+  border-radius: 4px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pragraph-photos-left{
@@ -83,7 +94,9 @@ height: 39rem;
   max-width: 400px;
   max-height: 400px;
   float: left;
-  margin: 1rem;
+  margin: 5px 3rem 5px 5px;
+  border-radius: 4px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hidden{
