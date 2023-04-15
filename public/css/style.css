@@ -327,8 +327,18 @@ footer p {
   transform: translateX(0);
 }
 
+
+
+
+
 /* Heading Section Media */
 
+
+@media only screen and (max-width: 953px) and (min-width: 798px)  {
+  .title-img {
+    width: 20rem;
+  }
+}
 
 @media only screen and (max-width: 798px) and (min-width: 490px)  {
   .title-img {
@@ -355,16 +365,93 @@ footer p {
   }
 
 /* About-Me Section Media */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .aboutme .heading {
     margin-top: 2rem;
   }
 
 }
 
+@media only screen and (max-width: 767px) and (min-width: 489px)  {
+  .title-img {
+    width: 10rem;
+  }
+}
+
 /* Projects Section Media */
 
-@media only screen and (max-width: 768px) and (min-width: 490px){
+/* Specialy for triangle */
+@media only screen and (max-width: 1437px) and (min-width: 1198px) {
+  .circle {
+    width: 50rem;
+  }
+  .solutions{
+    width: 30rem;
+    left: 30rem
+  }
+}
+
+@media only screen and (max-width: 1198px) and (min-width: 975px){
+  .circle{
+    width: 40rem;
+  }
+  .solutions{
+    width: 25rem;
+    left: 34rem;
+  }
+}
+
+@media only screen and (max-width: 975px) and (min-width: 645px){
+  .triangle {
+    position: relative;
+    right: 15rem;
+    width: 25rem;
+    transform: scale(90%);
+  }
+
+  .solutions{
+  transform: scale(100%);
+  }
+}
+
+@media only screen and (max-width: 645px) and (min-width: 504px){
+  .triangle {
+    position: relative;
+    right: 23rem;
+    width: 25rem;
+    transform: scale(90%);
+  }
+
+  .solutions{
+  transform: scale(100%);
+  }
+}
+
+@media only screen and (max-width: 504px) and (min-width: 363px){
+  .triangle {
+    position: relative;
+    right: 29.5rem;
+  }
+
+.solutions{
+  transform: scale(65%);
+}
+}
+
+@media only screen and (max-width: 363px){
+  .triangle {
+    position: relative;
+    right: 32rem;
+  }
+
+.solutions{
+  transform: scale(50%);
+  width: 30rem;
+}
+}
+/* End of triangle */
+
+@media only screen and (max-width: 975px) and (min-width: 504px){
   .circle {
     right: auto;
   }
@@ -385,14 +472,6 @@ footer p {
     margin: auto;
   }
 
-  .triangle {
-    position: relative;
-    right: 18rem;
-  }
-
-.solutions{
-  transform: scale(100%);
-}
 
 }
 
@@ -420,7 +499,7 @@ footer p {
 
 }
 
-@media only screen and (max-width:489px) {
+@media only screen and (max-width:504px) {
   .circle {
     right: auto;
     width: 150%;
@@ -442,13 +521,6 @@ footer p {
     margin: auto;
   }
 
-  .triangle {
-    position: relative;
-    right: 29.5rem;
-  }
-
-.solutions{
-  transform: scale(75%);
 }
 
 textarea {
